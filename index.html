@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <title>Andrei Diaconu - Senior Android Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+        @page {
+            /* size: letter; */
+            size: A4;
+            margin: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #000;
+            background-color: #fff;
+            font-size: 13px; /* Reduce font size */
+            line-height: 1.28;
+            font-weight: 400;
+        }
+        #a4preview {
+            /* width: 8.5in;
+            height: 11in; */
+            width: 210mm;
+            height: 296mm;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        #resume {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            padding: 38px;
+            a {
+                color: #0762D8;
+                text-underline-offset: 3px;
+            }
+            li a {
+                text-decoration: none;
+                font-weight: 600;
+            }
+            h3 a, li a {
+                text-decoration: none;
+            }
+        }
+        header {
+            width: 100%;
+            position: relative;
+            h1 {
+                font-size: 42px;
+                font-weight: 600;
+                float: left;
+                width: 70%;
+            }
+            p {
+                margin: 0;
+                float: left;
+                width: 460px;
+            }
+            #contact-info {
+                margin-top: 8px;
+                text-align-last: justify;
+            }
+            img {
+                width: 95px;
+                height: 95px;
+                border-radius: 3%;
+                bottom: 0;
+                position: absolute;
+            }
+        }
+        #content {
+            display: flex;
+            width: 100%;
+            h2 {
+                font-size: 16px;
+                font-weight: 600;
+                padding-top: 25px;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+        main {
+            width: 69%;
+            padding-right: 25px;
+            box-sizing: border-box;
+            .job {
+                h3 {
+                    padding-top: 12px;
+                }
+                .at {
+                    padding: 0 0.3em 0;
+                }
+                .employer {
+                    font-weight: 600;
+                }
+                .during {
+                    padding: 0.6em;
+                }
+                .period {
+                    color: #555;
+                    font-size: 90%;
+                }
+                ul {
+                    padding: 8px 0 5px 18px;
+                    list-style-type: disc;
+                }
+            }
+        }
+        aside {
+            width: 31%;
+            #contact-info h2 + a{
+                padding-top: 5px;
+            }
+            #contact-info a {
+                display: block;
+                line-height: 1.7;
+            }
+            h3 {
+                font-weight: 600;
+                padding: 15px 0 5px 0;
+            }
+            #education h3 {
+                padding-top: 5px;
+            }
+            h2 + p {
+                padding-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="a4preview">
+        <div id="resume">
+            <header>
+                <h1>Andrei Diaconu</h1>
+                <p>Senior Android Engineer with 15 years of mobile development experience, delivering 10 high-impact apps with 100M downloads. Experienced team lead with product and startup experience.</p>
+                <img src="andrei-diaconu-senior-android-engineer.jpg" alt="Photo of Andrei Diaconu, a talented Android and Flutter Engineer" />
+            </header>
+            <div id="content">
+                <main>
+                    <section id="experience">
+                        <h2>Experience</h2>
+                        <div class="job">
+                            <h3>
+                                Senior Android Engineer 
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://www.microsoft.com">Microsoft</a></span>
+                                <span class="during"> </span>
+                                <span class="period">12/2020 - Present</span>
+                            </h3>
+                            <ul>
+                                <li>Contributed to <a href="https://learn.microsoft.com/en-us/mdep/">MDEP</a>, Microsoft's Android-based operating system</li>
+                                <!-- Droidcon London '21, Flutter Global Summit '21, DartUP '21, Flutter Vikings Feb '22, Flutter Global Summit '22, Flutter Vikings Sept '22, Flutter Cluj-Napoca -->
+                                <li>Delivered features to Device Setup Wizard and AOSP Settings apps</li>
+                                <li>Developed several AI prototypes using ONNX, such as removing unwanted objects from photos or live translations</li>
+                                <li>Developer Advocate for Surface Duo, delivering 7 talks in 1 year</li>
+                                <li>Built the <a href="https://pub.dev/packages/dual_screen">dual_screen</a> Flutter package, achieving 6,000 downloads</li>
+                            </ul>
+                        </div>
+                        <div class="job">
+                            <h3>
+                                Senior Mobile Engineer
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://www.investsuite.com">InvestSuite</a></span>
+                                <span class="during"> </span>
+                                <span class="period">05/2020 - 12/2020</span>
+                            </h3>
+                            <ul>
+                                <li>Architected Flutter codebase for white-labeling, enabling 2 new clients</li>
+                                <li>Build stock browsing functionality with smooth UI at 60 fps</li>
+                                <li>Used gRPC and protobuf, ensuring constant ticker price updates</li>
+                                <li>Optimized stock history charting module, improving frame rate by 40%</li>
+                            </ul>
+                        </div>
+                        <div class="job">
+                            <h3>
+                                Senior Mobile Engineer
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://www.rydoo.com">Rydoo</a></span>
+                                <span class="during"> </span>
+                                <span class="period">09/2019 - 05/2020</span>
+                            </h3>
+                            <ul>
+                                <li>Added mileage expense screen which included Google Maps integration</li>
+                                <li>Added receipt scanner with OCR, improving accuracy by 50%</li>
+                                <li>Built localization with CI/CD support, reducing deployment time by 3 days</li>
+                                <li>Optimized app performance using Redux architecture</li>
+                            </ul>
+                        </div>
+                        <div class="job">
+                            <h3>
+                                Founder
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://postmuseapp.com">PostMuse</a></span>
+                                <span class="during"> </span>
+                                <span class="period">02/2019 - 09/2019</span>
+                            </h3>
+                            <ul>
+                                <li>Achieved 100K downloads and 2K subscriptions across Android and iOS</li>
+                                <li>Used Firebase as backend, RevenueCat and Amplitude for analytics</li>
+                                <li>Designed UI with Figma, validated through user interviews</li>
+                                <li>Grew downloads by 20% monthly through new features and experiments</li>
+                            </ul>
+                        </div> 
+                        <div class="job">
+                            <h3>
+                                Android Team Lead
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://www.creatubbles.com">Creatubbles</a></span>
+                                <span class="during"> </span>
+                                <span class="period">02/2017 - 02/2019</span>
+                            </h3>
+                            <ul>
+                                <li>Coordinated team of 6, building the mobile apps for this social network</li>
+                                <li>Architected app using MVP and Kotlin coroutines, reducing time to market for new features by 2 days each sprint</li>
+                                <li>Setup CI/CD with CircleCI, maintaining 95% code coverage on every PR</li>
+                                <li>Starting with 2018, was promoted to lead both Android and iOS</li>
+                            </ul>
+                        </div> 
+                        <div class="job">
+                            <h3>
+                                Senior Android Developer
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://www.saferkid.com">SaferKid</a></span>
+                                <span class="during"> </span>
+                                <span class="period">10/2016 - 04/2017</span>
+                            </h3>
+                            <ul>
+                                <li>Developed child and parent apps with advanced monitoring features, with a crash rate below 1%</li>
+                                <li>Built monitoring and blocking of websites, apps, calls, and SMS, reducing inappropriate content access by 100%</li>
+                                <li>Wrote integration tests using Espresso and ran them in Amazon Device Farm on 10 devices at once</li>
+                                <li>Implemented uninstall notifier using C++, ensuring parents were notified immediately 30% of times</li>
+                            </ul>
+                        </div> 
+                        <div class="job">
+                            <h3>
+                                Android Consultant
+                                <span class="at">&mdash;</span>
+                                <span class="employer"><a href="https://mios.com">MiOS</a></span>
+                                <span class="during"> </span>
+                                <span class="period">08/2015 - 10/2016</span>
+                            </h3>
+                            <ul>
+                                <li>Improved performance by rewriting architecture using RxJava, achieving 50% faster app boot times.</li>
+                                <li>Setup CI, git workflows, and conducted interviews for new hires, growing the team to 5 people</li>
+                                <li>This was an IoT product offering control over any smart switch or device</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="job">
+                            <h3>
+                                Android Developer
+                                <span class="at">&mdash;</span>
+                                <span class="employer">PeoplePost</span>
+                                <span class="during"> </span>
+                                <span class="period">05/2013 - 08/2015</span>
+                            </h3>
+                            <ul>
+                                <li>Led Android app development, including architecture and CI</li>
+                                <li>Built smart API and image caching, making the app fast and responsive</li>
+                                <li>This was a hotel booking app built as a social network. Implemented custom transitions opening a hotel from a list of hotels</li>
+                            </ul>
+                        </div>
+                        <div class="job">
+                            <h3>
+                                Android Team Lead
+                                <span class="at">&mdash;</span>
+                                <span class="employer">Neuro Software</span>
+                                <span class="during"> </span>
+                                <span class="period">11/2010 - 05/2013</span>
+                            </h3>
+                            <ul>
+                                <li>Developed PicSpeed Wallpapers, reaching 50M downloads</li>
+                                <li>Managed team of 20, overseeing development of 5 games in Unity</li>
+                                <li>Created internal tooling for competitor tracking, which skyrocketed our Play Store downloads to millions</li>
+                            </ul>
+                        </div> 
+                        <div class="job">
+                            <h3>
+                                Full-stack Wordpress Developer
+                                <span class="at">&mdash;</span>
+                                <span class="employer">Freelance</span>
+                                <span class="during"> </span>
+                                <span class="period">01/2007 - 01/2010</span>
+                            </h3>
+                            <ul>
+                                <li>Designed in Photoshop and implemented websites using Wordpress</li>
+                                <li>Provided hosting and maintenance for 10 clients, including e-commerce</li>
+                            </ul>
+                        </div> -->
+                    </section>
+                </main>
+                <aside>
+                    <section id="contact-info">
+                        <h2>Contact information</h2>
+                        <a href="mailto:office@andreidiaconu.com">office@andreidiaconu.com</a>
+                        <a href="tel:+40747582702">+40 747 582 702</a>
+                        <a href="https://www.linkedin.com/in/diaconuandrei">www.linkedin.com/in/diaconuandrei</a>
+                        <!-- <a href="https://andreidiaconu.com">www.andreidiaconu.com</a> -->
+                    </section>
+                    <section id="skills">
+                        <h2>Skills</h2>
+                        <h3>Programming Languages</h3>
+                        <p>Kotlin, Java, Dart</p>
+                        <h3>Libraries & Frameworks</h3>
+                        <p>Android, Jetpack Compose, Kotlin Coroutines, RxJava, Retrofit, Dagger, Hilt, Firebase, TensorFlow Lite, ONNX, AOSP, Flutter, Provider, Riverpod, Bloc, gRPC, Protobuf, Jackson, Gson, Room, SQLite</p>
+                        <h3>Tools & Platforms</h3>
+                        <p>Figma, Git, GitHub, Amplitude, RevenueCat, CircleCI, Jenkins, Android Studio, Visual Studio Code, Postman, JIRA, Trello, Slack, GitHub Copilot, ChatGPT</p>
+                        <h3>Soft Skills</h3>
+                        <p>Training, Teaching, Public Speaking, Building communities</p>
+                    </section>
+                
+                    <section id="education">
+                        <h2>Education</h2>
+                        <h3>"Alexandru Ioan Cuza" University</h3>
+                        <p>Bachelor of Science in Computer Science, 2008 - 2011</p>
+                    </section>
+                    <section id="languages">
+                        <h2>Languages</h2>
+                        <p>English, Romanian</p>
+                    </section>
+                    <section id="interests">
+                        <h2>Interests</h2>
+                        <p>Design, User Experience, Machine Learning, Image processing, Growth hacking</p>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
