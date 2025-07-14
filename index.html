@@ -24,7 +24,7 @@
             /* width: 8.5in;
             height: 11in; */
             width: 210mm;
-            height: 296mm;
+            height: 370mm; /* 296mm for A4, 370mm for whole resume*/
             margin: auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             box-sizing: border-box;
@@ -114,10 +114,10 @@
         }
         aside {
             width: 31%;
-            #contact-info h2 + a{
+            #contact-info h2 + a, #vanity-links h2 + a {
                 padding-top: 5px;
             }
-            #contact-info a {
+            #contact-info a, #vanity-links a {
                 display: block;
                 line-height: 1.7;
             }
@@ -252,7 +252,8 @@
                                 <li>This was an IoT product offering control over any smart switch or device</li>
                             </ul>
                         </div>
-                        <!-- <div class="job">
+                        <!-- CUTOFF TO FIT INTO A4 -->
+                        <div class="job">
                             <h3>
                                 Android Developer
                                 <span class="at">&mdash;</span>
@@ -292,16 +293,25 @@
                                 <li>Designed in Photoshop and implemented websites using Wordpress</li>
                                 <li>Provided hosting and maintenance for 10 clients, including e-commerce</li>
                             </ul>
-                        </div> -->
+                        </div>
+                        <!-- CUTOFF TO FIT INTO A4 -->
                     </section>
                 </main>
                 <aside>
                     <section id="contact-info">
                         <h2>Contact information</h2>
-                        <a href="mailto:office@andreidiaconu.com">office@andreidiaconu.com</a>
-                        <a href="tel:+40747582702">+40 747 582 702</a>
-                        <a href="https://www.linkedin.com/in/diaconuandrei">www.linkedin.com/in/diaconuandrei</a>
+                        <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#111;&#102;&#102;&#105;&#99;&#101;&#64;&#97;&#110;&#100;&#114;&#101;&#105;&#100;&#105;&#97;&#99;&#111;&#110;&#117;&#46;&#99;&#111;&#109;">&#111;&#102;&#102;&#105;&#99;&#101;&#64;&#97;&#110;&#100;&#114;&#101;&#105;&#100;&#105;&#97;&#99;&#111;&#110;&#117;&#46;&#99;&#111;&#109;</a>
+                        <a href="&#116;&#101;&#108;&#58;&#43;&#52;&#48;&#55;&#52;&#55;&#53;&#56;&#50;&#55;&#48;&#50;">&#43;40&#x20;747&#x20;582&#x20;702</a>
+                        <a href="https://www.linkedin.com/in/diaconuandrei">linkedin.com/in/diaconuandrei</a>
                         <!-- <a href="https://andreidiaconu.com">www.andreidiaconu.com</a> -->
+                    </section>
+                    <section id="vanity-links">
+                        <h2>Links</h2>
+                        <a href="Andrei Diaconu - Senior Android Engineer.pdf">Download the CV</a>
+                        <a href="https://github.com/andreidiaconu">GitHub</a>
+                        <a href="https://speakerdeck.com/andreidiaconu">Speaker Deck</a>
+                        <a href="https://stackoverflow.com/users/2710246/andrei-tudor-diaconu">StackOverflow</a>
+                        <a href="https://x.com/andreidiaconu">Twitter / X</a>
                     </section>
                     <section id="skills">
                         <h2>Skills</h2>
